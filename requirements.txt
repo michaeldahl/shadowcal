@@ -1,0 +1,13 @@
+# shadowcal — dependencies
+#
+# Core (required for 'sync', i.e. the headless part launchd runs):
+icalendar>=5.0
+recurring-ical-events>=2.2
+pyobjc-framework-EventKit>=10.0
+pyobjc-framework-Cocoa>=10.0
+
+# Only for the TUI (can be omitted if you exclusively use the CLI commands):
+textual>=0.60
+
+# Only for the menu-bar app ('shadowcal menubar'):
+rumps>=0.4

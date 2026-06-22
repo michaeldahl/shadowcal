@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Local Claude Code / session files
+.claude/
+RESUME.md
+
+# Runtime config & state (lives in ~/.config/shadowcal, never commit)
+config.json
+state.json
+*.log
